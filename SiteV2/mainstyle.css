@@ -1,0 +1,60 @@
+.container {
+    display:flex;
+ align-items: center; /* Alinhar verticalmente o conteúdo */
+ }
+
+.image {
+max-width: 50%; /* Ajuste a largura da imagem conforme necessário */
+}
+
+ .text {
+ flex: 1; /* Permite que o texto ocupe o espaço restante na linha */
+ padding: 0 40px; /* Espaçamento entre a imagem e o texto */
+ }
+ .info{
+    width: 228px;
+    height: 256px;
+    color: #000;
+    padding: 120px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 14px */;}
+#banner{
+    width: 100%; height: 100%; background: #F86434
+}
+.button{
+    margin: 0 10px;
+    padding-left: 32px; 
+    padding-right: 32px; 
+    padding-top: 23px; 
+    padding-bottom: 23px; 
+    background: #0064B1; 
+    box-shadow: 0px 7px 21px rgba(37, 44, 97, 0.20);
+    border-radius: 999px; overflow: hidden; 
+    justify-content: center; align-items: 
+    center; gap: 12px; 
+    display: flex
+}
+.textbutton{
+    color: white;
+font-size: 14px;
+font-family: Montserrat;
+font-weight: 600;
+line-height: 14px;
+word-wrap: break-word;
+text-decoration: none;
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Isso alinha os botões no centro horizontal */
+    padding: 5px;
+}
+.artigo{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
